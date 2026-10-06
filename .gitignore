@@ -1,0 +1,53 @@
+# Environment
+.env
+.env.local
+*.pyc
+__pycache__/
+*.egg-info/
+
+# Database
+db.sqlite3
+*.sql
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Media and static files
+media/
+staticfiles/
+local_static/
+
+# Logs
+*.log
+logs/
+
+# Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Dependencies
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.tox/
+.hypothesis/
+
+# Django
+*.pot
+local_settings.py
+
+# Backups
+*.backup
+*.dump
